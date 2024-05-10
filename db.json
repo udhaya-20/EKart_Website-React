@@ -1,0 +1,72 @@
+{
+  "user": [
+    {
+      "name": "alala",
+      "email": "fmggzk@gmail.com",
+      "password": "qwerty",
+      "id": 25
+    },
+    {
+      "name": "hroihaow",
+      "email": "gvasduv@gmail.com",
+      "password": "qwerty",
+      "id": 26
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 27
+    }
+  ],
+  "products": [
+    {
+      "name": "Convention Style CardBoard Boxes",
+      "price": 20,
+      "count": 0,
+      "imgurl": "images/product1.jpg"
+    },
+    {
+      "name": "Corrugated Style FireBoard Boxes",
+      "price": 20,
+      "count": 0,
+      "imgurl": "images/product2.jpg"
+    },
+    {
+      "name": "Grey Paper CardBoard Boxes",
+      "price": 25,
+      "count": 0,
+      "imgurl": "images/product3.jpg"
+    },
+    {
+      "name": "Double Layered CardBoard Boxes",
+      "price": 20,
+      "count": 0,
+      "imgurl": "images/product4.jpg"
+    },
+    {
+      "name": "HoneyComb Layered CardBoard Boxes",
+      "price": 40,
+      "count": 0,
+      "imgurl": "images/product5.jpg"
+    },
+    {
+      "name": "Tripple Layered CardBoard Boxes",
+      "price": 70,
+      "count": 0,
+      "imgurl": "images/product6.jpg"
+    },
+    {
+      "name": "Reverse Tuck CardBoard Boxes",
+      "price": 30,
+      "count": 0,
+      "imgurl": "images/product7.jpg"
+    },
+    {
+      "name": "Packaging Pallet CardBoard Boxes",
+      "price": 45,
+      "count": 0,
+      "imgurl": "images/product8.jpg"
+    }
+  ]
+}

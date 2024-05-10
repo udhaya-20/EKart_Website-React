@@ -1,0 +1,92 @@
+.propage{
+    background-image: url("../images/user_profilebg.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    padding:7rem 0 3rem 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.procards{
+    max-width: 1140px;
+    border: 5px dashed black;
+    color:black;
+    padding: 2rem;
+    width: 800px;
+    background-color: white;
+}
+.procards h2{
+    font-size: 1.7rem;
+    text-align: center;
+}
+.avatarimg{
+    width:80px;
+    height:80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.headdiv p{
+    /* font-size: 1.1rem; */
+    color: black;
+    text-align: center;
+}
+.formstyle{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1140px;
+}
+.formstyle label{
+    font-weight: bold;
+}
+.formstyle input{
+    margin: 1rem;
+    padding: 5px 18px;
+    font-size: 1rem;
+    color:black;
+}
+.formstyle select {
+    width: 21rem;
+    margin: 1rem;
+    padding: 6px 18px;
+    font-size: 1rem;
+    color:black;
+  }
+.buttn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 40px;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    background-color:deepskyblue;
+    cursor: pointer;
+}
+.footdiv{
+    /* display: grid; */
+    margin: auto;
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+.footcard{
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+}
+.footcard:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+@media screen and (max-width:640px) {
+    .procards{
+        margin:auto;
+        max-width: 90%;
+    }
+}

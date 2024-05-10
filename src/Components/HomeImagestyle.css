@@ -1,0 +1,147 @@
+.mask{
+    height:85vh;
+    width:100%;
+    position:relative;
+}
+.intro-img{
+    height:100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.mask::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.65;
+
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+}
+.hero .content12{
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.hero .content12 h1{
+    font-size: 4rem;
+    padding: 0.6rem  0 1.5rem;
+}
+.hero .content12 p{
+    font-size: 1.4rem;
+    font-weight:200;
+    text-transform: uppercase;
+}
+
+.content12 .btn{
+    margin: 1rem 0.5rem;
+}
+.heads h3{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+.containers{
+    max-width: 1140px;
+    margin: auto;
+    display: grid; 
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding: 2rem;
+}
+.products .prodimg{
+    width: 200px;
+    height: 180px;
+}
+.products{
+    border: 1.5px solid;
+    box-shadow:0 0.188em 1.55em black;
+    border-radius: 0.25rem;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+}
+.products:hover{
+    transform: scale(1.02);
+    box-shadow:0 0.188em 1.55em cyan;
+}
+.products p{
+    padding: 5px;
+    color: black;
+    font-family:Arial;
+    font-size: 1.05rem;
+    font-weight: bold;   
+}
+
+.buttons button {
+    margin: 0.2rem 0.2rem;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+}
+.btn1{
+    background-color:#FF8C00;
+    border: 1px solid;
+    cursor: pointer;
+}
+.btn1:hover{
+    transform: scale(1.05);
+    border: 1.5px solid black;
+}
+.btn2{
+    background-color:#FF5F1F;
+    border: 1px solid;
+    cursor: pointer;
+}
+.btn2:hover{
+    transform: scale(1.05);
+    border: 1.5px solid black;
+}
+.categories h3{
+    padding:0 0 0.5rem 4rem ;
+    font-size: 1.5rem;
+
+}
+.categories .rule{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width:640px) {
+
+    .hero .content h1{
+         font-size: 3rem;
+    }
+    .hero .content p{
+        font-size: 1.4rem;
+    }
+    .content .btn{
+        margin: -2.5rem -0.3rem;
+    }
+    .categories h3{
+        padding:0 0 0.5rem 2rem ;
+    }
+    .containers{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .products .prodimg{
+        width: 250px;
+        height: 180px;
+    }
+}

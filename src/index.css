@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+body{
+  background-color: white;
+}
+
+h1,h4,p,a{
+  color: azure;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+.btn{
+  padding:12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color:goldenrod;
+  color: black;
+  border: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5%;
+} 
+
+.btn-light{
+  background-color: transparent;
+  color: azure;
+}
+
+.btn:hover{
+  background-color: gray;
+  color: azure;
+  transition:0.3s;
+}
